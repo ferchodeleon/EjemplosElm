@@ -24,7 +24,7 @@ type alias Model =
 
 init : Model
 init =
-  Model "" "" ""
+  Model {name = "" password = "" passwordAgain = ""}
 
 -- UPDATE
 
